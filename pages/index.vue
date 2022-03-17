@@ -1,5 +1,17 @@
 <template>
-  <div>Hello</div>
+  <main id="homepage">
+    <div class="main-title">
+      <span class="small">Hi! My name is</span>
+      <span class="large">J. Gabriel Onofre</span>
+    </div>
+    <div class="lead">
+      I'm a full-stack software developer focused on creating clean,
+      creative and user-friendly applications.
+    </div>
+    <div class="buttons">
+      <a href="projects.html" class="btn">View Projects</a>
+    </div>
+  </main>
 </template>
 
 <script>
@@ -12,3 +24,7 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+
+</style>
