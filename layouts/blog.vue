@@ -1,18 +1,21 @@
 <template>
-  <div class="default-layout">
-    <NavigationBar />
+  <div class="blog-layout">
+    <NavigationBar isBlog="true" />
     <Nuxt />
+    <BlogFooter />
   </div>
 </template>
 
 <script>
 import NavigationBar from '@/components/GeneralLayout/NavigationBar.vue'
+import BlogFooter from '@/components/GeneralLayout/BlogFooter.vue'
 
 export default {
-  name: 'DefaultLayout',
+  name: 'BlogLayout',
 
   components: {
-    NavigationBar
+    NavigationBar,
+    BlogFooter
   },
 
   data() {
