@@ -1,6 +1,6 @@
 <template>
   <div class="blog-layout">
-    <NavigationBar isBlog="true" />
+    <NavigationBar :is-blog="true" />
     <Nuxt />
     <BlogFooter />
   </div>

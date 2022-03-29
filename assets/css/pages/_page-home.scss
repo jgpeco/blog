@@ -1,4 +1,6 @@
 #homepage {
+  color: $gray;
+
   main {
     max-width: 1200px;
     /* margin: 2rem; */
@@ -8,52 +10,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    color: $gray;
     text-align: right;
     animation: 1.2s ease-in appears;
   }
-  
-  .small {
-    display: block;
-    margin-right: 0.2rem;
-    margin-bottom: -1.7rem;
-    font-size: 3rem;
-    font-weight: 300;
-  }
-  
-  .large {
-    font-size: 7rem;
-    line-height: 7.5rem;
-    display: block;
-    padding: 1rem;
-    font-weight: 700;
-    color: $white;
+
+  .main-title {
+    &_small {
+      display: block;
+      margin-right: 0.2rem;
+      margin-bottom: -1.7rem;
+      font-size: 3rem;
+      font-weight: 300;
+    }
+
+    &_large {
+      font-size: 7rem;
+      line-height: 7.5rem;
+      display: block;
+      padding: 1rem;
+      font-weight: 700;
+      color: $white;
+    }
   }
   
   .lead {
     font-size: 2rem;
     font-weight: 400;
-  }
-  
-  .buttons {
-    margin-top: 2rem;
-  }
-  
-  .btn {
-    padding: 1rem;
-    font-size: 1.2rem;
-    background-color: $white;
-    border: 1px solid $dark-blue;
-    border-radius: 8px;
-    color: $dark-blue;
-    text-decoration: none;
-    font: inherit;
-    box-shadow: -5px 9px 16px -7px rgba(0, 0, 0, 0.75);
-  }
-  
-  .btn:hover {
-    color: $white;
-    background: $dark-blue;
   }
   
 }
